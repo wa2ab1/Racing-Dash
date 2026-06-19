@@ -16,3 +16,22 @@ This project was created to add more realistic and cool visual cues to my racing
 ## Case
 <img width="2160" height="1082" alt="render racing hub" src="https://github.com/user-attachments/assets/ecc9cbc0-95d9-4233-9567-9439b2a07071" />
 
+## Software
+
+This device uses SimHub. First isntall Simhub, then navigate to the "arduino" section
+
+Since SimHub creates the sketch for you, use the Arduino Setup window to load the firmware.
+
+Navigate to the "Screens" Tab and find "MainScreen".
+
+You'll want to set the first Led Display to "DataCorePlugin.GameData.NewData.SpeedLocal" (this will be your car's speed)
+
+<img width="1420" height="342" alt="Screenshot 2026-06-18 203007" src="https://github.com/user-attachments/assets/2c760e80-9f49-49f0-8fe5-5dab80059153" />
+
+
+And set the second LED Display to "GameData.CurrentLapTime"
+
+<img width="1246" height="329" alt="Screenshot 2026-06-18 202847" src="https://github.com/user-attachments/assets/d4b92ac5-404d-42d1-832d-f2cf01cbe5cf" />
+
+Then Navigate to RGB Matrix and enable "Gear". Customize the display to your liking. (note the redline color won't change since the Matrix is one color)
+<img width="1326" height="453" alt="image" src="https://github.com/user-attachments/assets/7b5fe1ad-86f8-4c1a-b45f-0ab0506947a1" />
