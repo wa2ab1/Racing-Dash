@@ -1,5 +1,9 @@
 # Sim Racing Telemetry display Powered by SimHub
 
+<img width="2160" height="1082" alt="new new good thumbnail race hub" src="https://github.com/user-attachments/assets/2e43031e-c3f5-489c-a119-bcfb2d760c1d" />
+<img width="1788" height="889" alt="copy back race hub good" src="https://github.com/user-attachments/assets/8294bc04-ef17-4ff4-817c-5833c37bf735" />
+<img width="2160" height="1082" alt="good front view race hub" src="https://github.com/user-attachments/assets/a5a54718-468e-4dec-b099-4b999706795b" />
+
 This Sim Racing Dash is a practical Sim racing addon to your sim racing setup that displays your current Gear, Speed, and Lap Time using an 8x8 LED Matrix and 7 segment displays.
 
 This project was created to add more realistic and cool visual cues to my racing setup. It is designed to be attached on top of a Logitech G29/G920/G923 wheelbase using velcro straps and would be seen through the gap on the steering wheel.
@@ -14,25 +18,28 @@ This project was created to add more realistic and cool visual cues to my racing
 - Configured with SimHub software
 
 ## Case
-<img width="2160" height="1082" alt="render racing hub" src="https://github.com/user-attachments/assets/ecc9cbc0-95d9-4233-9567-9439b2a07071" />
+
 
 The case is 3d printed in three parts: The rectangular case housing, the top plate, and the support bracket. 15% infill is reccomended.
+<img width="2160" height="1082" alt="race hub parts render" src="https://github.com/user-attachments/assets/84c84662-8554-44d3-bf3b-aa029060f634" />
 
-For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black, and paint the front outline with glossy red. The back case and mount can be painted white.
+For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black, and paint the front outline with glossy red. The back case and mount can be painted white and black.
 
-The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. 
+The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. The Arduino Pro Micro is Friction fit into a special slot near the usb port.
+<img width="2160" height="1082" alt="internals race hub render" src="https://github.com/user-attachments/assets/98733628-3fb5-4601-899f-79cbf2b25a13" />
 
-The Arduino Pro Micro is Friction fit into a special slot near the usb port.
+The Racing Dash can be used on a desk on its own or mounted onto a wheelbase such as the Logitech G29. Using the adhesive velcro straps, stick one side onto the wheelbase behind the wheel in your desired location, then stick the other side onto the bottom of the Racing Dash. It should stay secure even with Trueforce enabled on the G923 which vibrates the wheelbase heavily.
 
 ## Wiring
 
 Using SimHub, the CLK and LOAD pins do not need to be placed on the specific clk pins or mosi/miso pins on the pro micro. The two 7 segment displays MUST be cascaded together as shown, and the LED matrix wired separately. All are connected to the same ground and VCC pin to avoid voltage drops as advised by SimHub.
 
+
 <img width="1613" height="695" alt="Screenshot 2026-06-19 122151" src="https://github.com/user-attachments/assets/791ba122-bd92-46ca-abb2-00d9dcb562d6" />
 
 <img width="644" height="469" alt="image" src="https://github.com/user-attachments/assets/fb2befcf-f5dc-4c00-aaf9-6e0d5888bc72" />
 
-## Software
+## Firmware
 
 This device uses [SimHub](https://www.simhubdash.com/). SimHub is a comprehensive software compatible with hundreds of popular racing games that relays telemetry and game info to the software, which allows you to set up digital displays, screens, and devices that work universally with any racing game. SimHub automatically creates the sketch to run the firmware on your microcontroller.
 
@@ -68,4 +75,4 @@ Then Navigate to RGB Matrix and enable "Gear". Customize the display to your lik
 
 <img width="1326" height="453" alt="image" src="https://github.com/user-attachments/assets/7b5fe1ad-86f8-4c1a-b45f-0ab0506947a1" />
 
-You can experiment with other display features in SimHub to customize your Racing Dash. Feel free to experiment!
+You can experiment with other display features in SimHub to customize your Racing Dash. Add car spotters, lap deltas, warning lights, etc.
