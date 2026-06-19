@@ -1,6 +1,6 @@
 # Sim Racing Telemetry display Powered by SimHub
 
-<img width="2160" height="1082" alt="led render race hub" src="https://github.com/user-attachments/assets/ac57c2fd-06f8-4a32-a5c2-b9901af26e65" />
+<img width="1834" height="908" alt="carbon fiber sin hub" src="https://github.com/user-attachments/assets/6a26f3dd-eff0-47d0-85d9-fc88e62aa513" />
 
 
 This Sim Racing Dash is a practical Sim racing addon to your sim racing setup that displays your current Gear, Speed, and Lap Time using an 8x8 LED Matrix and 7 segment displays.
@@ -8,7 +8,8 @@ This Sim Racing Dash is a practical Sim racing addon to your sim racing setup th
 This project was created to add more realistic and cool visual cues to my racing setup. It is designed to be attached on top of a Logitech G29/G920/G923 wheelbase using velcro straps and would be seen through the gap on the steering wheel.
 
 <img width="1788" height="889" alt="copy back race hub good" src="https://github.com/user-attachments/assets/8294bc04-ef17-4ff4-817c-5833c37bf735" />
-<img width="2160" height="1082" alt="good front view race hub" src="https://github.com/user-attachments/assets/a5a54718-468e-4dec-b099-4b999706795b" />
+<img width="1925" height="960" alt="carbon fiber head on" src="https://github.com/user-attachments/assets/cbf02fea-abad-49a6-a922-34c79f40e6f9" />
+
 
 ## Features:
 
@@ -24,7 +25,7 @@ This project was created to add more realistic and cool visual cues to my racing
 The case is 3d printed in three parts: The rectangular case housing, the top plate, and the support bracket. 15% infill is reccomended.
 <img width="2160" height="1082" alt="race hub parts render" src="https://github.com/user-attachments/assets/84c84662-8554-44d3-bf3b-aa029060f634" />
 
-For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black, and paint the front outline with glossy red. The back case and mount can be painted white and black.
+For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black, and paint the front outline with glossy red. The back case and mount can be painted white and black. Optionally, you can add a carbon fiber waterslide decal/sticker on the inner or outer shell.
 
 The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. The Arduino Pro Micro is Friction fit into a special slot near the usb port.
 <img width="2160" height="1082" alt="internals race hub render" src="https://github.com/user-attachments/assets/98733628-3fb5-4601-899f-79cbf2b25a13" />
