@@ -18,7 +18,7 @@ This project was created to add more realistic and immersive driving components 
 - Velcro straps to attach securely to any wheelbase
 - Configured with SimHub software
 
-<img width="1410" height="2000" alt="Zine" src="https://github.com/user-attachments/assets/77c12f49-f998-4a45-bb99-1cb9c2f89b29" />
+<img width="1410" height="2000" alt="Zine" src="https://github.com/user-attachments/assets/7821f045-9207-49bb-9493-e488362055ba" />
 
 ## Case
 
