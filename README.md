@@ -84,3 +84,12 @@ Then Navigate to RGB Matrix and enable "Gear". Customize the display to your lik
 <img width="1326" height="453" alt="image" src="https://github.com/user-attachments/assets/7b5fe1ad-86f8-4c1a-b45f-0ab0506947a1" />
 
 You can experiment with other display features in SimHub to customize your Racing Dash. Add car spotters, lap deltas, warning lights, etc.
+
+## Credits
+3d Models Used
+[Case Screws](https://www.printables.com/model/259465-iso-chc-m3-screws-3d-models-step-files)
+[M3 Nut](https://grabcad.com/library/m3-nut-4)
+[Segmented Display Part](https://grabcad.com/library/6-digit-led-display-tube-7-segments-46x14mm-tm1637-1)
+[Led Matrix Model](https://github.com/ts91/kicad-LED_DotMatrix)
+[Component Screws](https://grabcad.com/library/metric-screws-from-m2-x-2-5-to-m2-x-20-1)
+[Arduino Pro Micro](https://github.com/joe-scotto/scottokeebs)
