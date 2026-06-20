@@ -1,40 +1,46 @@
-# Sim Racing Telemetry display Powered by SimHub
+# DashMaster: LED Sim Racing Telemetry display Powered by SimHub
 
 <img width="1834" height="908" alt="carbon fiber sin hub" src="https://github.com/user-attachments/assets/6a26f3dd-eff0-47d0-85d9-fc88e62aa513" />
 
+DashMaster is a practical Sim racing telemetry dash that displays race information such as your current gear, speed, and lap time using an 8x8 LED Matrix and 7 segment displays.
 
-This Sim Racing Dash is a practical Sim racing addon to your sim racing setup that displays your current Gear, Speed, and Lap Time using an 8x8 LED Matrix and 7 segment displays.
-
-This project was created to add more realistic and cool visual cues to my racing setup. It is designed to be attached on top of a Logitech G29/G920/G923 wheelbase using velcro straps and would be seen through the gap on the steering wheel.
+This project was created to add more realistic and immersive driving components to a racing setup. Having external telemetry displays clears up the monitor view for a more immersive experience. It is designed to be attached on top of a Logitech G29/G920/G923 wheelbase and would be seen through the gap on the steering wheel.
 
 <img width="1788" height="889" alt="copy back race hub good" src="https://github.com/user-attachments/assets/8294bc04-ef17-4ff4-817c-5833c37bf735" />
 <img width="1925" height="960" alt="carbon fiber head on" src="https://github.com/user-attachments/assets/cbf02fea-abad-49a6-a922-34c79f40e6f9" />
 
-
 ## Features:
 
-- Customizable 8x8 LED Matrix to display current Gear, Shift lights, or Shift warnings
+- Customizable 8x8 LED Matrix to display current Gear, Shift lights, and car spotters
 - 3 digit 7-segment display for current speed
 - 6 digit 7-segment display for current lap time
-- Velcro straps to attach securely to wheelbase
 - Powered by Arduino Pro Micro Microcontroller
+- Velcro straps to attach securely to any wheelbase
 - Configured with SimHub software
+
+<img width="1410" height="2000" alt="Zine" src="https://github.com/user-attachments/assets/7aaa5fe9-3db6-4970-9f4c-bf7a84bfecd8" />
 
 ## Case
 
 The case is 3d printed in three parts: The rectangular case housing, the top plate, and the support bracket. 15% infill is reccomended.
+
+
 <img width="2160" height="1082" alt="race hub parts render" src="https://github.com/user-attachments/assets/84c84662-8554-44d3-bf3b-aa029060f634" />
 
-For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black, and paint the front outline with glossy red. The back case and mount can be painted white and black. Optionally, you can add a carbon fiber waterslide decal/sticker on the inner or outer shell.
+For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black and silver, and paint the front outline with glossy red. The back case and mount can be painted white and black. Optionally, you can add a carbon fiber waterslide decal/sticker on the inner or outer shell.
 
-The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. The Arduino Pro Micro is Friction fit into a special slot near the usb port.
+The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. The Arduino Pro Micro is friction fit into a special slot near the usb port.
+
+
 <img width="2160" height="1082" alt="internals race hub render" src="https://github.com/user-attachments/assets/98733628-3fb5-4601-899f-79cbf2b25a13" />
 
-The Racing Dash can be used on a desk on its own or mounted onto a wheelbase such as the Logitech G29. Using the adhesive velcro straps, stick the hooked side onto the wheelbase behind the wheel in your desired location, then stick the softer side onto the base of the Racing Dash. This allows you to still use the Racing Dash on a table.
+The Racing Dash can be used on a desk on its own or mounted onto a wheelbase such as the Logitech G29. Using adhesive velcro straps, stick the hooked side onto the wheelbase behind the wheel in your desired location, then stick the other side onto the base of the Racing Dash. This allows you to still use the Racing Dash on a table.
 
 ## Wiring
 
-Using SimHub, the CLK and LOAD pins do not need to be placed on the specific clk pins or mosi/miso pins on the pro micro. The two 7 segment displays MUST be cascaded together as shown, and the LED matrix wired separately. All are connected to the same ground and VCC pin to avoid voltage drops as advised by SimHub.
+Connect the CLK, LOAD, and DATAIN pins to the corresponding pins on the microcontroller for both the LED matrix and the segmented displays. All components are connected to the same ground and VCC pin to avoid voltage drops.
+
+Using SimHub, the CLK and LOAD pins do not need to be placed on the specific clk pins or mosi/miso pins on the Pro Micro. The two 7 segment displays must be cascaded together as shown, and the LED matrix wired separately.
 
 
 <img width="1613" height="695" alt="Screenshot 2026-06-19 122151" src="https://github.com/user-attachments/assets/791ba122-bd92-46ca-abb2-00d9dcb562d6" />
