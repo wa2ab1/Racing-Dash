@@ -29,16 +29,19 @@ The case is 3d printed in three parts: The rectangular case housing, the top pla
 
 For the design shown in the photo, paint the inner cavity and surrounding cover of the top plate with glossy black and silver, and paint the front outline with glossy red. The back case and mount can be painted white and black. Optionally, you can add a carbon fiber waterslide decal/sticker on the inner or outer shell.
 
-The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs. The Arduino Pro Micro is friction fit into a special slot near the usb port.
+The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws respectively and mounted on female to female 6mm metal standoffs from both sides. The Arduino Pro Micro is friction fit into a special slot near the usb port.
+
 
 
 <img width="2160" height="1082" alt="internals race hub render" src="https://github.com/user-attachments/assets/98733628-3fb5-4601-899f-79cbf2b25a13" />
+
+
 
 The Racing Dash can be used on a desk on its own or mounted onto a wheelbase such as the Logitech G29. Using adhesive velcro straps, stick the hooked side onto the wheelbase behind the wheel in your desired location, then stick the other side onto the base of the Racing Dash. This allows you to still use the Racing Dash on a table.
 
 ## Wiring
 
-Connect the CLK, LOAD, and DATAIN pins to the corresponding pins on the microcontroller for both the LED matrix and the segmented displays. All components are connected to the same ground and VCC pin to avoid voltage drops.
+Connect the CLK, LOAD, and DATAIN pins to the corresponding pins on the microcontroller for both the LED matrix and the segmented displays. All components are connected to the same ground and VCC pin to avoid voltage drops. You will need to manually solder and wire the components to the board, and connect all components to one joint GND and VCC wire that plugs into the GND and VCC pin on the microcontroller. You may choose to solder the wires above or below the PCBs of the components.
 
 Using SimHub, the CLK and LOAD pins do not need to be placed on the specific clk pins or mosi/miso pins on the Pro Micro. The two 7 segment displays must be cascaded together as shown, and the LED matrix wired separately.
 
@@ -53,7 +56,7 @@ This device uses [SimHub](https://www.simhubdash.com/). SimHub is a comprehensiv
 
 First [install Simhub](https://www.simhubdash.com/), then navigate to the "arduino" section
 Navigate to "My Hardware", then "Open arduino setup tool". 
-Choose Arduino Pro Micro as the board and assign the correct usb port.
+Choose Arduino Pro Micro as the board and assign the correct usb port your microcontroller is plugged into.
 
 
 <img width="574" height="63" alt="image" src="https://github.com/user-attachments/assets/16b683d0-17cf-449a-9b84-33e3b32965a3" />
@@ -84,6 +87,8 @@ Then Navigate to RGB Matrix and enable "Gear". Customize the display to your lik
 <img width="1326" height="453" alt="image" src="https://github.com/user-attachments/assets/7b5fe1ad-86f8-4c1a-b45f-0ab0506947a1" />
 
 You can experiment with other display features in SimHub to customize your Racing Dash. Add car spotters, lap deltas, warning lights, etc.
+
+Hop into your favorite racing game, and your DashMaster should be working!
 
 ## Credits
 3d Models Used
