@@ -39,6 +39,9 @@ The LED Matrix and 7 segment displays are screwed in using M3 and M2 screws resp
 
 The Racing Dash can be used on a desk on its own or mounted onto a wheelbase such as the Logitech G29. Using adhesive velcro straps, stick the hooked side onto the wheelbase behind the wheel in your desired location, then stick the other side onto the base of the Racing Dash. This allows you to still use the Racing Dash on a table.
 
+<img width="785" height="825" alt="Screenshot 2026-06-20 154803" src="https://github.com/user-attachments/assets/f51c3410-1733-456e-b80d-04ed027f3150" />
+
+
 ## Wiring
 
 Connect the CLK, LOAD, and DATAIN pins to the corresponding pins on the microcontroller for both the LED matrix and the segmented displays. All components are connected to the same ground and VCC pin to avoid voltage drops. You will need to manually solder and wire the components to the board, and connect all components to one joint GND and VCC wire that plugs into the GND and VCC pin on the microcontroller. You may choose to solder the wires above or below the PCBs of the components.
