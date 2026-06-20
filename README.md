@@ -1,4 +1,4 @@
-# DashMaster: LED Sim Racing Telemetry display Powered by SimHub
+# DashMaster: LED Sim Racing Telemetry Display Powered by SimHub
 
 <img width="1834" height="908" alt="carbon fiber sin hub" src="https://github.com/user-attachments/assets/6a26f3dd-eff0-47d0-85d9-fc88e62aa513" />
 
@@ -15,7 +15,7 @@ This project was created to add more realistic and immersive driving components 
 - 3 digit 7-segment display for current speed
 - 6 digit 7-segment display for current lap time
 - Powered by Arduino Pro Micro Microcontroller
-- Velcro straps to attach securely to any wheelbase
+- Velcro strips to attach securely to any wheelbase
 - Configured with SimHub software
 
 <img width="1410" height="2000" alt="Zine" src="https://github.com/user-attachments/assets/7821f045-9207-49bb-9493-e488362055ba" />
